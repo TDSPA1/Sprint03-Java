@@ -1,0 +1,186 @@
+2025-03-18 18:29:03 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-18 18:29:20 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-19 09:38:59 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-19 09:39:09 [main] INFO  org.example.Main - sistema finalizando... 
+2025-03-19 14:14:06 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-19 14:14:08 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-19 14:19:24 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-19 14:19:41 [main] INFO  org.example.Main - Colecão registrada com sucesso Linha(id=teste, nome=10, cor=lilas) 
+2025-03-19 14:19:41 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-19 15:49:39 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-19 15:49:42 [main] ERROR org.example.Main - Erro ao exportar arquivo 
+java.io.FileNotFoundException: .\reports\c92b725e-d273-48ba-aca0-842be5ed273b_colecoes.json (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:289) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:179) ~[?:?]
+	at java.io.FileWriter.<init>(FileWriter.java:98) ~[?:?]
+	at Repositorio.RegistroDeIncidenteRepository.exportarParaJson(RegistroDeIncidenteRepository.java:60) [classes/:?]
+	at org.example.Main.main(Main.java:125) [classes/:?]
+2025-03-19 15:49:42 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-19 15:55:56 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-19 15:56:13 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-19 16:17:56 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-19 16:18:06 [main] INFO  org.example.Main - linha registrada com sucesso Linha(id=21, nome=teste, cor=teste)  
+2025-03-19 16:18:06 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-19 16:18:09 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-19 16:19:11 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-19 16:19:57 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-19 16:20:05 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-19 19:58:16 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-19 19:58:19 [main] ERROR org.example.Main - Erro ao cadastrar linhas 
+java.sql.SQLException: No suitable driver found for jbdc:oracle:thin@oracle.fiap.com.br:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:707) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at Infrastructure.DatabaseConfig.getConnection(DatabaseConfig.java:14) ~[classes/:?]
+	at Repositorio.LinhaRepository.listar(LinhaRepository.java:58) [classes/:?]
+	at org.example.Main.ListarLinhas(Main.java:175) [classes/:?]
+	at org.example.Main.main(Main.java:129) [classes/:?]
+2025-03-20 08:01:35 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 08:01:38 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 08:01:44 [main] ERROR org.example.Main - Erro ao cadastrar linhas 
+java.sql.SQLException: ORA-17067: URL Oracle Inválido especificado
+	at oracle.jdbc.driver.OracleDriver.parseExtensionType(OracleDriver.java:962) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:789) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at java.sql.DriverManager.getConnection(DriverManager.java:682) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at Infrastructure.DatabaseConfig.getConnection(DatabaseConfig.java:14) ~[classes/:?]
+	at Repositorio.LinhaRepository.listar(LinhaRepository.java:58) [classes/:?]
+	at org.example.Main.ListarLinhas(Main.java:175) [classes/:?]
+	at org.example.Main.main(Main.java:129) [classes/:?]
+2025-03-20 08:02:27 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 08:02:30 [main] ERROR org.example.Main - Erro ao cadastrar linhas 
+java.sql.SQLException: ORA-17067: URL Oracle Inválido especificado
+	at oracle.jdbc.driver.OracleDriver.parseExtensionType(OracleDriver.java:962) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:789) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at java.sql.DriverManager.getConnection(DriverManager.java:682) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:230) ~[java.sql:?]
+	at Infrastructure.DatabaseConfig.getConnection(DatabaseConfig.java:14) ~[classes/:?]
+	at Repositorio.LinhaRepository.listar(LinhaRepository.java:58) [classes/:?]
+	at org.example.Main.ListarLinhas(Main.java:175) [classes/:?]
+	at org.example.Main.main(Main.java:129) [classes/:?]
+2025-03-20 08:45:07 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 08:45:11 [main] ERROR org.example.Main - Erro ao cadastrar linhas 
+java.sql.SQLSyntaxErrorException: ORA-00942: a tabela ou view não existe
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:262) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1137) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3751) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3922) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1103) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at Repositorio.LinhaRepository.listar(LinhaRepository.java:61) [classes/:?]
+	at org.example.Main.ListarLinhas(Main.java:175) [classes/:?]
+	at org.example.Main.main(Main.java:129) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00942: a tabela ou view não existe
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	... 17 more
+2025-03-20 08:46:01 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 08:46:05 [main] ERROR org.example.Main - Erro ao cadastrar linhas 
+java.sql.SQLSyntaxErrorException: ORA-00942: a tabela ou view não existe
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:262) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1137) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3751) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3922) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1103) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at Repositorio.LinhaRepository.listar(LinhaRepository.java:61) [classes/:?]
+	at org.example.Main.ListarLinhas(Main.java:175) [classes/:?]
+	at org.example.Main.main(Main.java:129) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00942: a tabela ou view não existe
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	... 17 more
+2025-03-20 08:56:12 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 08:59:17 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 08:59:26 [main] ERROR org.example.Main - Erro ao exportar arquivo 
+java.io.FileNotFoundException: .\reports\e67c8226-4400-409b-bf02-66eaa75ed996_colecoes.json (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:289) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:179) ~[?:?]
+	at java.io.FileWriter.<init>(FileWriter.java:98) ~[?:?]
+	at Repositorio.RegistroDeIncidenteRepository.exportarParaJson(RegistroDeIncidenteRepository.java:99) [classes/:?]
+	at org.example.Main.main(Main.java:132) [classes/:?]
+2025-03-20 08:59:26 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-20 09:04:30 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 09:04:33 [main] ERROR org.example.Main - Erro ao exportar arquivo 
+java.io.FileNotFoundException: .\reports\2025-03-20T09:04:33.158745300ff9c2787-b88a-4988-b53a-3205ad921e25_incidentes.json (A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:289) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:179) ~[?:?]
+	at java.io.FileWriter.<init>(FileWriter.java:98) ~[?:?]
+	at Repositorio.RegistroDeIncidenteRepository.exportarParaJson(RegistroDeIncidenteRepository.java:103) [classes/:?]
+	at org.example.Main.main(Main.java:132) [classes/:?]
+2025-03-20 09:04:33 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-20 09:08:37 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 09:08:45 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-20 09:08:50 [main] ERROR org.example.Main - Erro ao exportar arquivo 
+java.io.FileNotFoundException: .\reports\2025-03-20T09:08:50.0912264009a12af9c-f1f0-4b07-b834-0b36f86bc450_incidentes.json (A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:289) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:179) ~[?:?]
+	at java.io.FileWriter.<init>(FileWriter.java:98) ~[?:?]
+	at Repositorio.RegistroDeIncidenteRepository.exportarParaJson(RegistroDeIncidenteRepository.java:103) [classes/:?]
+	at org.example.Main.main(Main.java:132) [classes/:?]
+2025-03-20 09:08:50 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-20 09:12:20 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 09:12:31 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-20 09:16:24 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 09:16:39 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-20 09:18:10 [main] INFO  org.example.Main - Sistema iniciando... 
+2025-03-20 09:18:21 [main] ERROR org.example.Main - java.sql.SQLSyntaxErrorException: ORA-00904: "COR": identificador inválido
+ 
+2025-03-20 09:18:21 [main] INFO  org.example.Main - linha registrada com sucesso Linha(id=12, nome=teste, cor=teste)  
+2025-03-20 09:18:21 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-20 09:19:07 [main] INFO  org.example.Main - SISTEMA FINALIZANDO ... 
+2025-03-20 09:19:17 [main] ERROR org.example.Main - Erro ao cadastrar linhas 
+java.sql.SQLSyntaxErrorException: ORA-00942: a tabela ou view não existe
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:262) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1137) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3751) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3922) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1103) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at Repositorio.LinhaRepository.listar(LinhaRepository.java:61) [classes/:?]
+	at org.example.Main.ListarLinhas(Main.java:178) [classes/:?]
+	at org.example.Main.main(Main.java:130) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00942: a tabela ou view não existe
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	... 17 more
+2025-03-20 10:27:10 [main] INFO  org.example.Main - Sistema iniciando... 
